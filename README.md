@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.png" alt="Kali Linux + PS4" width="100%">
+</p>
+
 # Kali-PS4
 
 Kali Linux with the XFCE desktop for jailbroken PlayStation 4 consoles, with a graphical installer that runs on the TV. No PC tools, partitioning or USB stick are needed: copy five files to the PS4 over FTP, run the payload, press **Install**.
