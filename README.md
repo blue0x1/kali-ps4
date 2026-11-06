@@ -15,11 +15,11 @@ Created by **[Chokri Hammedi (blue0x1)](https://github.com/blue0x1)**
 
 ## Screenshots
 
-<p align="center">
-  <img src="docs/screenshots/install.png" alt="Install screen" width="32%">
-  <img src="docs/screenshots/choose-target.png" alt="Install to the PS4 or a USB drive" width="32%">
-  <img src="docs/screenshots/installing.png" alt="Installing" width="32%">
-</p>
+![Install screen](docs/screenshots/install.png)
+
+![Install to the PS4 or a USB drive](docs/screenshots/choose-target.png)
+
+![Installing](docs/screenshots/installing.png)
 
 ## Tested hardware
 
