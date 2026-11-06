@@ -2,7 +2,7 @@
   <img src="docs/banner.png" alt="Kali Linux + PS4" width="100%">
 </p>
 
-<h1 align="center">Kali-PS4</h1>
+<h1 align="center">Kali Linux for PS4</h1>
 
 <p align="center">
   <a href="https://github.com/blue0x1/kali-ps4/releases"><img src="https://img.shields.io/github/v/release/blue0x1/kali-ps4?label=release" alt="Release"></a>
@@ -133,13 +133,7 @@ Kernel command-line options handled by the initramfs (in `bootargs.txt`):
 | `scripts/`, `docker/`, `config/`, `overlay/` | Build system, Kali package lists and files added to Kali |
 | `assets/`, `tools/` | Logo, font generator, HDMI bridge debugging tool |
 
-## Credits
 
-- **[Chokri Hammedi (blue0x1)](https://github.com/blue0x1)**: Kali-PS4
-- [sony-jaguar-devs/ps4-linux](https://github.com/sony-jaguar-devs/ps4-linux): the Linux kernel with PS4 hardware support (GPLv2)
-- PS4 Linux Loader v25.2: the community payload that starts Linux, included in the release as published by its authors
-- [Kali Linux](https://www.kali.org/): the operating system. Kali Linux and the Kali logo are trademarks of OffSec.
-- Noto Sans font (SIL Open Font License) for the installer text
 
 ## License
 
