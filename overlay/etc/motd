@@ -1,0 +1,10 @@
+
+  Kali-PS4 - Kali Linux on the PlayStation 4
+  By Chokri Hammedi (blue0x1) - https://github.com/blue0x1
+
+  Internal Wi-Fi has no monitor mode: plug in a USB adapter for wireless work.
+  SSH is ON (kali/kali) - change the password now:  passwd
+  Turn SSH off:  sudo systemctl disable --now ssh
+  Connect Wi-Fi:  nmtui
+  Install tools:  sudo apt update && sudo apt install kali-tools-top10
+
