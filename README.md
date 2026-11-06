@@ -46,7 +46,7 @@ Other models should work wherever the [ps4-linux](https://github.com/sony-jaguar
 ## Requirements
 
 - A jailbroken PS4 with **GoldHEN** (for its FTP server and payload loader).
-- A PC on the same network with an FTP client (for example FileZilla). or ftp client in iPhone/Android
+- A PC/Android/Iphone on the same network with an FTP client (for example FileZilla).
 - **To install to the PS4:** about 28 GB free on the PS4. The installer creates a 16 GB Kali disk and always leaves 10 GB free for the PS4. With less space it makes a smaller disk (at least 8 GB).
 - **To install to USB:** a drive of 8 GB or more. It will be erased. A USB 3 drive or an external SSD is much faster than a USB 2 stick.
 - Optional: a DualShock 4 with a USB cable, or a USB keyboard.
