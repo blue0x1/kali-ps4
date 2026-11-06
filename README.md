@@ -15,18 +15,11 @@ Created by **[Chokri Hammedi (blue0x1)](https://github.com/blue0x1)**
 
 ## Screenshots
 
-The installer as it appears on the TV:
-
-| | |
-|---|---|
-| ![Intro: embers form the Kali logo](docs/screenshots/1-intro.png) | ![Install screen](docs/screenshots/2-install.png) |
-| **Intro**: embers fly in and form the logo | **Install screen**: Install or Reboot, installs by itself after 60 s |
-| ![Choose where to install](docs/screenshots/3-choose-target.png) | ![USB erase confirmation](docs/screenshots/4-erase-confirm.png) |
-| **With a USB drive connected**: install to the PS4 or to the drive | **Confirmation** before the USB drive is erased |
-| ![Installing with progress ring](docs/screenshots/5-installing.png) | ![Finishing](docs/screenshots/6-finishing.png) |
-| **Installing**: the ring around the logo fills with the progress | **Finishing**: the last data is written to the drive |
-| ![Installed, starting Kali](docs/screenshots/7-done.png) | |
-| **Done**: Kali starts | |
+<p align="center">
+  <img src="docs/screenshots/install.png" alt="Install screen" width="32%">
+  <img src="docs/screenshots/choose-target.png" alt="Install to the PS4 or a USB drive" width="32%">
+  <img src="docs/screenshots/installing.png" alt="Installing" width="32%">
+</p>
 
 ## Tested hardware
 
