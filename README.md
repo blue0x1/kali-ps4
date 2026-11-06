@@ -68,13 +68,15 @@ Other models should work wherever the [ps4-linux](https://github.com/sony-jaguar
 
 4. Run `linux-2048mb.bin` from GoldHEN's payload menu, or send it to GoldHEN's BinLoader on port 9090.
 
+   > **Be patient:** after the payload starts, the TV can show **"No signal" or a black screen for 1 to 2 minutes** while Linux starts and the HDMI output comes up. This is normal. Wait before you restart anything.
+
 5. In the installer, pick where to install and press **X**. Choosing the USB drive asks for confirmation first, because the drive is erased. Don't turn the PS4 off until Kali has started. The **Finishing** step at 100% can take a few minutes on a slow USB stick.
 
 Log in with user **`kali`**, password **`kali`**, and change the password right away with `passwd`. The SSH server is on, so anyone on your network can log in with the default password until you change it. Turn SSH off with `sudo systemctl disable --now ssh`.
 
 ## Everyday use
 
-Start GoldHEN and run the payload: the PS4 boots straight into Kali. It uses the USB drive if one with Kali is plugged in, otherwise the internal install. Shut down or restart from Kali to go back to the PS4 system.
+Start GoldHEN and run the payload: the PS4 boots straight into Kali. Give it 1 to 2 minutes: the screen can stay black or show "No signal" before the picture appears. It uses the USB drive if one with Kali is plugged in, otherwise the internal install. Shut down or restart from Kali to go back to the PS4 system.
 
 ## Reinstall or remove
 
@@ -86,7 +88,7 @@ Start GoldHEN and run the payload: the PS4 boots straight into Kali. It uses the
 
 | Problem | Fix |
 |---|---|
-| "No signal" or a black screen | Now and then the HDMI link does not come up on one boot. Hold the power button to turn the PS4 off, switch the TV off and on, and try again. |
+| "No signal" or a black screen | First wait 1 to 2 minutes: this is normal while Linux starts. If there is still no picture after that, the HDMI link did not come up on this boot (it happens now and then). Hold the power button to turn the PS4 off, switch the TV off and on, and try again. |
 | Controller does nothing in the installer | Connect it with a USB cable. Bluetooth is not available until Kali is running. |
 | "Not enough free space on the PS4" | Free up space on the PS4 (about 28 GB is ideal, 19 GB is the minimum), or install to a USB drive. |
 | A text console with a rescue shell | No Kali install was found. Check that the files are in the right folders. |
