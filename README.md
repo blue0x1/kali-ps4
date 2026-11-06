@@ -78,6 +78,28 @@ Log in with user **`kali`**, password **`kali`**, and change the password right 
 
 Start GoldHEN and run the payload: the PS4 boots straight into Kali. Give it 1 to 2 minutes: the screen can stay black or show "No signal" before the picture appears. It uses the USB drive if one with Kali is plugged in, otherwise the internal install. Shut down or restart from Kali to go back to the PS4 system.
 
+## Wi-Fi
+
+A network cable works without any setup. To join Wi-Fi, open a terminal in Kali and run these two commands, with your own network name and password:
+
+```bash
+sudo nmcli con add type wifi con-name home-wifi ifname wlan0 ssid "YOUR_WIFI_NAME" wifi-sec.key-mgmt wpa-psk wifi-sec.psk "YOUR_WIFI_PASSWORD"
+sudo nmcli con up home-wifi
+```
+
+Kali joins it again at every boot. If it does not connect:
+
+- Turn off MAC address randomization, which the PS4 Wi-Fi chip often fails with, then run `sudo nmcli con up home-wifi` again:
+
+  ```bash
+  printf '[device]\nwifi.scan-rand-mac-address=no\n\n[connection]\nwifi.cloned-mac-address=preserve\n' | sudo tee /etc/NetworkManager/conf.d/90-ps4-wifi.conf
+  sudo systemctl restart NetworkManager
+  ```
+
+- Use your router's 2.4 GHz network if it has a separate one, and WPA2 rather than WPA3 only.
+
+For a USB install, you can also save the Wi-Fi network from the PC before the first boot: plug in the drive and run `sudo scripts/add-wifi.sh`.
+
 ## Reinstall or remove
 
 - **Reinstall on the PS4:** delete `/user/home/kali-ps4.img` over FTP. The installer appears on the next boot.
