@@ -2,7 +2,17 @@
   <img src="docs/banner.png" alt="Kali Linux + PS4" width="100%">
 </p>
 
-# Kali-PS4
+<h1 align="center">Kali-PS4</h1>
+
+<p align="center">
+  <a href="https://github.com/blue0x1/kali-ps4/releases"><img src="https://img.shields.io/github/v/release/blue0x1/kali-ps4?label=release" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/blue0x1/kali-ps4" alt="License: GPL-2.0"></a>
+  <img src="https://img.shields.io/badge/platform-PS4-003791?logo=playstation&logoColor=white" alt="Platform: PS4">
+  <img src="https://img.shields.io/badge/Kali-Linux-557C94?logo=kalilinux&logoColor=white" alt="Kali Linux">
+  <img src="https://img.shields.io/badge/desktop-XFCE-2284F2?logo=xfce&logoColor=white" alt="Desktop: XFCE">
+  <img src="https://img.shields.io/badge/tested-PS4%20Pro%20%7C%20FW%2014.00-2ea043" alt="Tested: PS4 Pro, firmware 14.00">
+  <a href="https://github.com/blue0x1/kali-ps4/stargazers"><img src="https://img.shields.io/github/stars/blue0x1/kali-ps4?style=flat" alt="Stars"></a>
+</p>
 
 Kali Linux with the XFCE desktop for jailbroken PlayStation 4 consoles, with a graphical installer that runs on the TV. No PC tools, partitioning or USB stick are needed: copy five files to the PS4 over FTP, run the payload, press **Install**.
 
